@@ -1,61 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        app:srcCompat="@drawable/hcnhez9lnd0cxhsc3n5uxmbpouxbm42o" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="22dp"
-        android:text="Что-то наделал, вроде работает"
-        android:textColor="#093C3C"
-        android:textSize="11sp"
-        android:visibility="visible" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Нажми сюда"
-        android:textColor="#093C3C"
-        android:textSize="22sp"
-        android:visibility="gone" />
+    android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
 
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="134dp"
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="20"
-            android:backgroundTint="#FD407E"
-            android:text="Button"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/hcnhez9lnd0cxhsc3n5uxmbpouxbm42o" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="22dp"
+            android:text="Что-то наделал, вроде работает"
+            android:textColor="#093C3C"
+            android:textSize="11sp"
             android:visibility="visible" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="134dp"
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FD407E"
-            android:text="Button" />
+            android:gravity="center"
+            android:text="Нажми сюда"
+            android:textColor="#093C3C"
+            android:textSize="22sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#FD407E"
+                android:text="Button 1"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FD407E"
+                android:text="Button 2"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
     </LinearLayout>
 
-</LinearLayout>
+    <FrameLayout
+        android:id="@+id/screenContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>
