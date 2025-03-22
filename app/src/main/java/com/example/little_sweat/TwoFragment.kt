@@ -1,5 +1,6 @@
 package com.example.little_sweat
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -9,7 +10,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 
-class OneFragment : Fragment() {
+class TwoFragment : Fragment() {
 
     private var ivBack: ImageView? = null
     private var button: Button? = null
@@ -18,7 +19,7 @@ class OneFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_one, container, false)
+        return inflater.inflate(R.layout.fragment_two, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -34,8 +35,7 @@ class OneFragment : Fragment() {
             requireActivity().supportFragmentManager.popBackStack()
         }
         button?.setOnClickListener {
-            val twoFragment = TwoFragment()
-            (activity as? ScreenControl)?.openFragment(twoFragment)
+            startActivity(Intent(requireActivity(), MainActivity::class.java))
         }
     }
 }

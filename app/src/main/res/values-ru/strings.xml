@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">little_sweat</string>
+    <string name="hello_blank_fragment">Привет фрагмент</string>
+    <string name="button_1">Кнопка 1</string>
+    <string name="button_2">Кнопка 2</string>
+    <string name="yes_work">Да, работает:)</string>
+    <string name="roll_back">Вернуться на главную</string>
+</resources>

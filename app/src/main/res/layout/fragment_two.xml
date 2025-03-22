@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="Fragment 1"
+            android:text="Fragment 2"
             android:textColor="#093C3C"
             android:textSize="22sp" />
 
@@ -43,20 +43,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="#FD407E"
-            android:text="Перейти во второй фрагмент"
+            android:text="@string/roll_back"
             android:textColor="@color/white"
             android:visibility="visible" />
-
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="22dp"
-            android:text="Текст отображается"
-            android:textColor="#093C3C"
-            android:textSize="33sp"
-            android:visibility="invisible" />
 
     </LinearLayout>
 

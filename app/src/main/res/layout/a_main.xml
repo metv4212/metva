@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
                 android:backgroundTint="#FD407E"
-                android:text="Button 1"
+                android:text="@string/button_1"
                 android:textColor="@color/white"
                 android:visibility="visible" />
 
@@ -61,7 +61,7 @@
                 android:layout_width="134dp"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FD407E"
-                android:text="Button 2"
+                android:text="@string/button_2"
                 android:textColor="@color/white" />
         </LinearLayout>
 

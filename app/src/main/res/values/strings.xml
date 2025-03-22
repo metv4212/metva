@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">little_sweat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="yes_work">Да, работает:)</string>
+    <string name="roll_back">Вернуться на главную</string>
 </resources>
